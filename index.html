@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "M45GwqtDuqHg3f3Od",
+      });
+    })();
+  </script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <div class="menu-icon" id="menu-icon">
+      <i class='bx bx-dots-vertical-rounded'></i>
+    </div>
+    <nav class="navbar">
+      <a href="#home" style="--i:1" class="active">Home</a>
+      <a href="#about" style="--i:2">About</a>
+      <a href="#skills" style="--i:3">Skills</a>
+      <a href="#projects" style="--i:4">Projects</a>
+      <a href="#contact" style="--i:5">Contact</a>
+    </nav>
+  </header>
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, it's Me</h3>
+      <h1>Ayush Thakur</h1>
+      <h3>and I'm a <span class="text"></span></h3>
+      <p>I'm a B.tech student with experience in web development over 1 year. Expertise is to create websites, frontend
+        development and many more.... </p>
+      <div class="home-sci">
+        <a href="https://www.instagram.com/ayushxthakurx/" style="--i:7"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/ayush-thakur-832405329/" target="_blank" style="--i:8"><i
+            class='bx bxl-linkedin-square'></i></a>
+        <a href="mailto:ayush@example.com" target="_blank" style="--i:9"><i class='bx bx-envelope'></i></a>
+        <a href="https://wa.me/917876628642" target="_blank" style="--i:10"><i class='bx bxl-whatsapp'></i></a>
+        <a href="https://github.com/AYUSH-2858" target="_blank" style="--i:11"><i class='bx bxl-github'></i></a>
+      </div><br>
+      <a href="Ayush Thakur Resume.pdf" target="_blank" class="btn-box">Download Resume</a>
+    </div>
+    <div>
+      <img src="img/mi.png " class="home-img" alt="">
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div>
+      <img id="profile-pic" src="img/mi.png " class="image-wrapper" alt="">
+    </div>
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <h4>Web Developer!</h4>
+      <p>Hello I am a passionate and dedicated developer with a strong
+        foundation in Frontend development. Currently,
+        I am expanding my expertise in software
+        development, problem-solving, and web designing.
+        I enjoy building efficient, scalable solutions
+        and continuously improving my skills through
+        projects. Whether it is a developing applications,
+        optimizing code, or exploring new technologies,
+        I am always eager to learn and grow. Throughout my career, I have developed
+        a understanding of user interface (UI) and user experience (UX) principles.
+        I believe that a well-designed websites should not only look visually appealing
+        but also provide a smooth and enjoyble interaction for visitors.
+        <br><br>
+        <a href="https://www.linkedin.com/in/ayush-thakur-832405329/" target="_blank" class="btn-box-2">More About
+          Me</a>
+      </p>
+    </div>
+
+  </section>
+
+  <section class="skills-section" id="skills">
+    <h2>Skills I have</h2>
+    <br><br>
+    <div class="skills-grid">
+      <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+          alt="HTML"><span>HTML</span></div>
+      <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+          alt="CSS"><span>CSS</span></div>
+      <div class="skill-card"><img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          alt="JavaScript"><span>JavaScript</span></div>
+      <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          alt="React JS"><span>React JS</span></div>
+      <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+          alt="PhpMyAdmin"><span>PhpMyAdmin</span></div>
+      <div class="skill-card"><img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+          alt="MySQL"><span>MySQL</span></div>
+      <div class="skill-card"><img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+          alt="Bootstrap"><span>Bootstrap</span></div>
+      <div class="skill-card"><img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+          alt="Java"><span>Java</span></div>
+      <div class="skill-card"><img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+          alt="C++"><span>C++</span></div>
+      <div class="skill-card"><img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+          alt="Python"><span>Python</span></div>
+    </div>
+    <br> <br>
+    <div class="container1 reveal-on-scroll">
+      <h1 class="heading1">Professional skills</h1>
+      <div class="radial-bars">
+
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">75%</div>
+          <div class="text">Creativity</div>
+        </div>
+
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">95%</div>
+          <div class="text">Communication</div>
+        </div>
+
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">70%</div>
+          <div class="text">Problem Solving</div>
+        </div>
+
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">90%</div>
+          <div class="text">Team Work</div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="latest-projects" id="projects">
+    <div id="Portfolio">
+      <div class="main-text">
+        <h2>Latest <span>Project</span></h2>
+        <div class="portfolio-content">
+          <div class="row">
+            <img src="img/expensza.png" alt="Expensza" />
+            <div class="layer">
+              <h5>Expensza</h5>
+              <p>A simple and intuitive expense tracker that helps users manage daily spending, categorize expenses, and
+                view summaries for better budgeting.</p>
+              <a href="https://expensza-live2.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="img/crypto.png" alt="Crypto Tracker" />
+            <div class="layer">
+              <h5>Crypto-Currency-Tracker</h5>
+              <p>A real-time crypto tracker displaying live prices, market caps, and price changes of top
+                cryptocurrencies using public APIs.</p>
+              <a href="https://crypto-tracker-real-time-cryptocurrency-price-tracker.vercel.app/" target="_blank"><i
+                  class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="img/todo-list.png" alt="Todo List" />
+            <div class="layer">
+              <h5>Todo-List</h5>
+              <p>A minimal and responsive to-do list app allowing users to add, edit, complete, and delete tasks and
+                local storage support.</p>
+              <a href="https://to-do-list-blue-five-78.vercel.app/" target="_blank"><i
+                  class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact<span>Me</span></h2>
+      <h4>Let's Work Together</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat suscipit nihil deleniti recusandae sequi,
+        quasi unde cupiditate. Amet rem tempore tenetur soluta veritatis illo architecto, ipsa accusamus hic quia
+        inventore!</p>
+      <div class="contact-list">
+        <li><i class='bx bxs-send'></i>thakurayush24681@gmail.com</li>
+        <li><i class='bx bxs-phone'></i>7876628642</li>
+      </div>
+      <div class="contact-icons">
+        <a href="https://www.instagram.com/ayushxthakurx/" target="_blank" style="--i:7"><i
+            class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/ayush-thakur-832405329/" target="_blank" style="--i:8"><i
+            class='bx bxl-linkedin-square'></i></a>
+        <a href="mailto:ayush@example.com" target="_blank" style="--i:9"><i class='bx bx-envelope'></i></a>
+        <a href="https://wa.me/917876628642" target="_blank" style="--i:10"><i class='bx bxl-whatsapp'></i></a>
+        <a href="https://github.com/AYUSH-2858" target="_blank" style="--i:11"><i class='bx bxl-github'></i></a>
+      </div>
+
+    </div>
+    <div class="contact-form">
+      <form onsubmit="sendMail(event)">
+        <input type="text" id="name" placeholder="Enter Your Name" required>
+        <input type="email" id="email" placeholder="Enter Your Email" required>
+        <input type="text" id="subject" placeholder="Enter Your Subject">
+        <textarea id="message" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+        <br><br>
+        <input type="submit" value="Submit" class="send">
+      </form>
+
+      <br> <br>
+  </section>
+  <div class="last-text">
+    <p>Copyright 2025. All Rights Reserved</p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
